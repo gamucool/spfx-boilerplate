@@ -19,7 +19,7 @@ for Linux/MacOS run
 ```bash
 npm run fixbuildu
 ```
-This command you need to run always after package installation for change using version of TypeScript from 2 to much newer.
+This command you need to run always after package installation for changing version of TypeScript from 2 to 4.
 
 This package produces the following:
 

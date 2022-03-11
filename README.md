@@ -29,9 +29,9 @@ This package produces the following:
 
 ### CLI options
 
-gulp clean - Clean bundle and package
-gulp test - Run test (in progress)
-gulp serve - Run for debugging (commonly for using with --nobrowser key and connecting debugger from vs code)
-gulp bundle - Make bundle (for production with --ship param)
-gulp package-solution - Make SPFx package (for production with --ship param)
+* gulp clean - Clean bundle and package
+* gulp test - Run test (in progress)
+* gulp serve - Run for debugging (commonly for using with --nobrowser key and connecting debugger from vs code)
+* gulp bundle - Make bundle (for production with --ship param)
+* gulp package-solution - Make SPFx package (for production with --ship param)
 

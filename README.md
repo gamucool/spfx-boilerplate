@@ -19,7 +19,7 @@ for Linux/MacOS run
 ```bash
 npm run fixbuildu
 ```
-This command you need to run always after package installation for change using version of TypeScript from 2 to much newer.
+This command you need to run always after package installation for changing version of TypeScript from 2 to 4.
 
 This package produces the following:
 
@@ -29,11 +29,11 @@ This package produces the following:
 
 ### CLI options
 
-gulp clean - Clean bundle and package
-gulp test - Run test (in progress)
-gulp serve - Run for debugging (commonly for using with --nobrowser key and connecting debugger from vs code)
-gulp bundle - Make bundle (for production with --ship param)
-gulp package-solution - Make SPFx package (for production with --ship param)
+* gulp clean - Clean bundle and package
+* gulp test - Run test (in progress)
+* gulp serve - Run for debugging (commonly for using with --nobrowser key and connecting debugger from vs code)
+* gulp bundle - Make bundle (for production with --ship param)
+* gulp package-solution - Make SPFx package (for production with --ship param)
 
 ###Issues
 roundedCorner2 Error& Add this line to webpart constructor: ```loadTheme({effects:{roundedCorner2: '0px'}})``` 

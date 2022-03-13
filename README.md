@@ -35,3 +35,6 @@ gulp serve - Run for debugging (commonly for using with --nobrowser key and conn
 gulp bundle - Make bundle (for production with --ship param)
 gulp package-solution - Make SPFx package (for production with --ship param)
 
+###Issues
+roundedCorner2 Error& Add this line to webpart constructor: ```loadTheme({effects:{roundedCorner2: '0px'}})``` 
+

@@ -12,13 +12,19 @@ import * as strings from 'HelloWorldWebPartStrings';
 
 import HolloWorldContainer, { IHolloWorldContainerProps } from './container/HelloWorldContainer';
 import { configContainer } from '../../common';
+import { loadTheme } from "@fluentui/react";
 
 export interface IHelloWorldWebPartProps {
   
 }
 
 export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorldWebPartProps> {
-
+  
+  constructor() {
+    super();
+    loadTheme({effects:{roundedCorner2: '0px'}})
+  }
+  
   public render(): void {
     configContainer();
     const element: React.ReactElement<IHolloWorldContainerProps> = 

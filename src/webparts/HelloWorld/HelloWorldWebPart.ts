@@ -10,7 +10,7 @@ import {
 
 import * as strings from 'HelloWorldWebPartStrings';
 
-import HolloWorldContainer, { IHolloWorldContainerProps } from './container/HelloWorldContainer';
+import HelloWorldContainer, { IHelloWorldContainerProps } from './container/HelloWorldContainer';
 import { configContainer } from '../../common';
 import { loadTheme } from "@fluentui/react";
 
@@ -27,8 +27,8 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
   
   public render(): void {
     configContainer();
-    const element: React.ReactElement<IHolloWorldContainerProps> = 
-      React.createElement(HolloWorldContainer, {...this.properties});
+    const element: React.ReactElement<IHelloWorldContainerProps> = 
+      React.createElement(HelloWorldContainer, {...this.properties});
 
     ReactDom.render(element, this.domElement);
   }

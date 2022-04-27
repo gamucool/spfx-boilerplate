@@ -12,7 +12,8 @@
     "test": "gulp test",
     "preinstall": "npx npm-force-resolutions",
     "fixbuildw": "rimraf .\\node_modules\\@microsoft\\gulp-core-build-typescript\\node_modules\\typescript",
-    "fixbuildu": "rimraf ./node_modules/@microsoft/gulp-core-build-typescript/node_modules/typescript"
+    "fixbuildu": "rimraf ./node_modules/@microsoft/gulp-core-build-typescript/node_modules/typescript",
+    "config": "node configProject.js"
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",

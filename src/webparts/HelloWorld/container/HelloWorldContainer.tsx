@@ -3,14 +3,14 @@ import * as React from 'react';
 import styles from './Container.module.scss';
 import { HelloWorld } from '../components';
 
-export interface IHolloWorldContainerProps {
+export interface IHelloWorldContainerProps {
     SettingsRootCollection: string;
     SettingsList: string;
 }
 
-export default class HolloWorldContainer extends React.Component<IHolloWorldContainerProps, {}>{
+export default class HelloWorldContainer extends React.Component<IHelloWorldContainerProps, {}>{
 
-    public render(): React.ReactElement<IHolloWorldContainerProps> {
+    public render(): React.ReactElement<IHelloWorldContainerProps> {
         return (<div className={styles.container} > 
                     <HelloWorld />
                 </div>);

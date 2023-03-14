@@ -21,6 +21,11 @@ npm run fixbuildu
 ```
 This command you need to run always after package installation for changing version of TypeScript from 2 to 4.
 
+To rename your project run
+```bash
+npm run-script config <Your_Name>
+```
+
 This package produces the following:
 
 * lib/* - intermediate-stage commonjs build artifacts

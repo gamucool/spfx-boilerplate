@@ -16,6 +16,8 @@
 /dist
 /lib
 */obj
+/sharepoint
+/temp
 
 # misc
 .DS_Store

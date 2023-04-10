@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "spfx-boilerplate",
-    "id": "8f7531b9-ad5d-4f77-acce-184010d364b4",
+    "name": "evraz-portal-fatalis",
+    "id": "3d5f0b0b-86b7-42ae-94cb-96b8cce11509",
     "version": "1.0.0.1",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true
   },
   "paths": {
-    "zippedPackage": "solution/spfx-boilerplate.sppkg"
+    "zippedPackage": "solution/evraz-portal-fatalis.sppkg"
   }
 }

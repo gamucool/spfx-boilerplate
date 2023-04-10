@@ -691,8 +691,8 @@
     "isInternal": true
   },
   {
-    "id": "db0c5bfc-2729-4b1e-bc0f-ad9846b4b426",
-    "alias": "HelloWorldWebPart",
+    "id": "619eac9c-8733-4882-991b-7a2993e70442",
+    "alias": "FatalisWebPart",
     "componentType": "WebPart",
     "version": "1.0.0",
     "manifestVersion": 2,
@@ -701,30 +701,102 @@
       {
         "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
         "group": {
-          "default": "Other"
+          "default": "Новый портал ЕВРАЗ - веб-части"
         },
         "title": {
-          "default": "HelloWorldWebPart"
+          "default": "Дни без смертельных случаев"
         },
         "description": {
-          "default": "Hello World WebPart"
+          "default": "Дни без смертельных случаев"
+        },
+        "officeFabricIconFontName": "Page",
+        "properties": {
+          "link": "https://portal.evraz.com/hse/Incidents/SitePages/%D0%9F%D1%80%D0%BE%D0%B8%D1%81%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F.aspx"
+        }
+      }
+    ],
+    "loaderConfig": {
+      "entryModuleId": "webpart-web-part",
+      "internalModuleBaseUrls": [
+        "https://localhost:4321/"
+      ],
+      "scriptResources": {
+        "webpart-web-part": {
+          "type": "path",
+          "path": "dist/webpart-web-part.js"
+        },
+        "PropertyControlStrings": {
+          "defaultPath": "node_modules/@pnp/spfx-property-controls/lib/loc/en-us.js",
+          "type": "localizedPath",
+          "paths": {
+            "en-US": "node_modules/@pnp/spfx-property-controls/lib/loc/en-us.js",
+            "fr-FR": "node_modules/@pnp/spfx-property-controls/lib/loc/fr-fr.js",
+            "nl-NL": "node_modules/@pnp/spfx-property-controls/lib/loc/nl-nl.js"
+          }
+        },
+        "FatalisWebPartStrings": {
+          "defaultPath": "lib/webparts/FatalisWebPart/loc/en-us.js",
+          "type": "localizedPath",
+          "paths": {}
+        },
+        "@microsoft/sp-webpart-base": {
+          "type": "component",
+          "version": "1.4.1",
+          "id": "974a7777-0990-4136-8fa6-95d80114c2e0"
+        },
+        "@microsoft/sp-core-library": {
+          "type": "component",
+          "version": "1.4.1",
+          "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b"
+        },
+        "@microsoft/sp-http": {
+          "type": "component",
+          "version": "1.4.1",
+          "id": "c07208f0-ea3b-4c1a-9965-ac1b825211a6"
+        },
+        "@microsoft/sp-lodash-subset": {
+          "type": "component",
+          "version": "1.4.1",
+          "id": "73e1dc6c-8441-42cc-ad47-4bd3659f8a3a"
+        }
+      }
+    }
+  },
+  {
+    "id": "7d83b3f6-56d8-4eaa-b289-2c83384fa203",
+    "alias": "FatalisWebPart",
+    "componentType": "WebPart",
+    "version": "1.0.0",
+    "manifestVersion": 2,
+    "requiresCustomScript": false,
+    "preconfiguredEntries": [
+      {
+        "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+        "group": {
+          "default": "Новый портал ЕВРАЗ - веб-части"
+        },
+        "title": {
+          "default": "Дни без смертельных случаев"
+        },
+        "description": {
+          "default": "Дни без смертельных случаев"
         },
         "officeFabricIconFontName": "Page",
         "properties": {}
       }
     ],
     "loaderConfig": {
-      "entryModuleId": "helloworld-web-part",
+      "entryModuleId": "webpart-web-part",
       "internalModuleBaseUrls": [
         "https://localhost:4321/"
       ],
       "scriptResources": {
-        "helloworld-web-part": {
+        "webpart-web-part": {
           "type": "path",
-          "path": "dist/helloworld-web-part.js"
+          "path": "dist/webpart-web-part.js"
         },
-        "HelloWorldWebPartStrings": {
-          "defaultPath": "lib/webparts/HelloWorld/loc/en-us.js",
+        "FatalisWebPartStrings": {
+          "defaultPath": "lib/webparts/FatalisWebPart/loc/en-us.js",
           "type": "localizedPath"
         },
         "@microsoft/sp-webpart-base": {

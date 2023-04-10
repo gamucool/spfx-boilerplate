@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "619eac9c-8733-4882-991b-7a2993e70442",
+  "alias": "FatalisWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": { "default": "Новый портал ЕВРАЗ - веб-части"},
+      "title": {"default": "Дни без смертельных случаев"},
+      "description": {"default": "Дни без смертельных случаев"},
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "link": "https://portal.evraz.com/hse/Incidents/SitePages/%D0%9F%D1%80%D0%BE%D0%B8%D1%81%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F.aspx"
+      }
+    }
+  ]
+}
